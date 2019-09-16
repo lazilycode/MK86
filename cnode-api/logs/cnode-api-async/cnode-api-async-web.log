@@ -1,0 +1,15 @@
+2019-09-16 10:15:13,365 ERROR 4430 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'show' of undefined
+    at DemoController.show (/Users/kunlingwu/MK86/cnode-api/app/controller/demo.js:12:44)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:69:7)
+
+pid: 4430
+hostname: kunlingdeMacBook-Pro.local
+

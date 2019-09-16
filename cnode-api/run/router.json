@@ -1,0 +1,28 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/demo",
+    "regexp": "/^\\/demo(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/kunlingwu/MK86/cnode-api/app/controller/demo.js#DemoController.show()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/__loader_trace__",
+    "regexp": "/^\\/__loader_trace__(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous"
+    ]
+  }
+]
