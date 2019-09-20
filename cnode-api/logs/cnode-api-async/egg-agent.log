@@ -143,3 +143,86 @@
 2019-09-16 10:16:02,396 WARN 3935 [agent:development] reload worker because /Users/kunlingwu/MK86/cnode-api/app/controller/demo.js change
 2019-09-16 10:16:02,141 INFO 3935 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/controller/demo.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21271033,"size":276,"blocks":8,"atimeMs":1568600162129.9624,"mtimeMs":1568600162130.5562,"ctimeMs":1568600162130.5562,"birthtimeMs":1568599510212.1038,"atime":"2019-09-16T02:16:02.130Z","mtime":"2019-09-16T02:16:02.131Z","ctime":"2019-09-16T02:16:02.131Z","birthtime":"2019-09-16T02:05:10.212Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-09-16 10:16:02,192 INFO 3935 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/controller/demo.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21271033,"size":276,"blocks":8,"atimeMs":1568600162129.9624,"mtimeMs":1568600162130.5562,"ctimeMs":1568600162130.5562,"birthtimeMs":1568599510212.1038,"atime":"2019-09-16T02:16:02.130Z","mtime":"2019-09-16T02:16:02.131Z","ctime":"2019-09-16T02:16:02.131Z","birthtime":"2019-09-16T02:05:10.212Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:18:30,356 INFO 7983 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-09-16 16:18:30,436 INFO 7983 [egg:core] dump config after load, 5ms
+2019-09-16 16:18:30,471 INFO 7983 [egg-watcher:agent] watcher start success
+2019-09-16 16:18:30,501 INFO 7983 [egg:core] dump config after ready, 3ms
+2019-09-16 16:19:17,045 WARN 7983 [agent:development] reload worker because /Users/kunlingwu/MK86/cnode-api/app/router.js change
+2019-09-16 16:19:16,841 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21271036,"size":172,"blocks":8,"atimeMs":1568621956839.5486,"mtimeMs":1568621956779.6804,"ctimeMs":1568621956779.6804,"birthtimeMs":1568599510213.8489,"atime":"2019-09-16T08:19:16.840Z","mtime":"2019-09-16T08:19:16.780Z","ctime":"2019-09-16T08:19:16.780Z","birthtime":"2019-09-16T02:05:10.214Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:19:20,169 WARN 7983 [agent:development] reload worker because /Users/kunlingwu/MK86/cnode-api/app/router.js change
+2019-09-16 16:19:19,915 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21271036,"size":172,"blocks":8,"atimeMs":1568621959902.6953,"mtimeMs":1568621959903.3345,"ctimeMs":1568621959903.3345,"birthtimeMs":1568599510213.8489,"atime":"2019-09-16T08:19:19.903Z","mtime":"2019-09-16T08:19:19.903Z","ctime":"2019-09-16T08:19:19.903Z","birthtime":"2019-09-16T02:05:10.214Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:19:19,964 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21271036,"size":172,"blocks":8,"atimeMs":1568621959902.6953,"mtimeMs":1568621959903.3345,"ctimeMs":1568621959903.3345,"birthtimeMs":1568599510213.8489,"atime":"2019-09-16T08:19:19.903Z","mtime":"2019-09-16T08:19:19.903Z","ctime":"2019-09-16T08:19:19.903Z","birthtime":"2019-09-16T02:05:10.214Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:19:25,722 WARN 7983 [agent:development] reload worker because /Users/kunlingwu/MK86/cnode-api/app/router.js change
+2019-09-16 16:19:25,466 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21271036,"size":172,"blocks":8,"atimeMs":1568621965453.8777,"mtimeMs":1568621965455.7808,"ctimeMs":1568621965455.7808,"birthtimeMs":1568599510213.8489,"atime":"2019-09-16T08:19:25.454Z","mtime":"2019-09-16T08:19:25.456Z","ctime":"2019-09-16T08:19:25.456Z","birthtime":"2019-09-16T02:05:10.214Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:19:25,517 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21271036,"size":172,"blocks":8,"atimeMs":1568621965453.8777,"mtimeMs":1568621965455.7808,"ctimeMs":1568621965455.7808,"birthtimeMs":1568599510213.8489,"atime":"2019-09-16T08:19:25.454Z","mtime":"2019-09-16T08:19:25.456Z","ctime":"2019-09-16T08:19:25.456Z","birthtime":"2019-09-16T02:05:10.214Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:19:29,222 WARN 7983 [agent:development] reload worker because /Users/kunlingwu/MK86/cnode-api/app/router.js change
+2019-09-16 16:19:28,972 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21271036,"size":173,"blocks":8,"atimeMs":1568621968958.699,"mtimeMs":1568621968959.3582,"ctimeMs":1568621968959.3582,"birthtimeMs":1568599510213.8489,"atime":"2019-09-16T08:19:28.959Z","mtime":"2019-09-16T08:19:28.959Z","ctime":"2019-09-16T08:19:28.959Z","birthtime":"2019-09-16T02:05:10.214Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:19:29,021 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21271036,"size":173,"blocks":8,"atimeMs":1568621969021.0095,"mtimeMs":1568621968959.3582,"ctimeMs":1568621968959.3582,"birthtimeMs":1568599510213.8489,"atime":"2019-09-16T08:19:29.021Z","mtime":"2019-09-16T08:19:28.959Z","ctime":"2019-09-16T08:19:28.959Z","birthtime":"2019-09-16T02:05:10.214Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:19:36,446 WARN 7983 [agent:development] reload worker because /Users/kunlingwu/MK86/cnode-api/app/router.js change
+2019-09-16 16:19:36,191 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21271036,"size":173,"blocks":8,"atimeMs":1568621976179.4746,"mtimeMs":1568621976180.1138,"ctimeMs":1568621976180.1138,"birthtimeMs":1568599510213.8489,"atime":"2019-09-16T08:19:36.179Z","mtime":"2019-09-16T08:19:36.180Z","ctime":"2019-09-16T08:19:36.180Z","birthtime":"2019-09-16T02:05:10.214Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:19:36,241 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21271036,"size":173,"blocks":8,"atimeMs":1568621976241.3853,"mtimeMs":1568621976180.1138,"ctimeMs":1568621976180.1138,"birthtimeMs":1568599510213.8489,"atime":"2019-09-16T08:19:36.241Z","mtime":"2019-09-16T08:19:36.180Z","ctime":"2019-09-16T08:19:36.180Z","birthtime":"2019-09-16T02:05:10.214Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:21:57,087 WARN 7983 [agent:development] reload worker because /Users/kunlingwu/MK86/cnode-api/app/controller/user.js change
+2019-09-16 16:21:56,885 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21358489,"size":749,"blocks":8,"atimeMs":1568622116885.552,"mtimeMs":1568622116825.6086,"ctimeMs":1568622116825.6086,"birthtimeMs":1568621410127.8193,"atime":"2019-09-16T08:21:56.886Z","mtime":"2019-09-16T08:21:56.826Z","ctime":"2019-09-16T08:21:56.826Z","birthtime":"2019-09-16T08:10:10.128Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:21:58,540 WARN 7983 [agent:development] reload worker because /Users/kunlingwu/MK86/cnode-api/app/controller/user.js change
+2019-09-16 16:21:58,290 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21358489,"size":755,"blocks":8,"atimeMs":1568622118273.811,"mtimeMs":1568622118279.81,"ctimeMs":1568622118279.81,"birthtimeMs":1568621410127.8193,"atime":"2019-09-16T08:21:58.274Z","mtime":"2019-09-16T08:21:58.280Z","ctime":"2019-09-16T08:21:58.280Z","birthtime":"2019-09-16T08:10:10.128Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:21:58,340 INFO 7983 Recieved a change event from eventSource: {"event":"change","path":"/Users/kunlingwu/MK86/cnode-api/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":21358489,"size":755,"blocks":8,"atimeMs":1568622118340.389,"mtimeMs":1568622118279.81,"ctimeMs":1568622118279.81,"birthtimeMs":1568621410127.8193,"atime":"2019-09-16T08:21:58.340Z","mtime":"2019-09-16T08:21:58.280Z","ctime":"2019-09-16T08:21:58.280Z","birthtime":"2019-09-16T08:10:10.128Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-16 16:35:36,571 ERROR 7983 nodejs.ClusterClientNoResponseError: client no response in 157409ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kunlingwu/MK86/cnode-api/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7983
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 16:53:53,232 ERROR 7983 nodejs.ClusterClientNoResponseError: client no response in 756617ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kunlingwu/MK86/cnode-api/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7983
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 18:49:53,392 ERROR 7983 nodejs.ClusterClientNoResponseError: client no response in 6560080ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kunlingwu/MK86/cnode-api/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7983
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 18:54:15,599 ERROR 7983 nodejs.ClusterClientNoResponseError: client no response in 242196ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kunlingwu/MK86/cnode-api/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7983
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 21:38:27,430 ERROR 7983 nodejs.ClusterClientNoResponseError: client no response in 9231746ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kunlingwu/MK86/cnode-api/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7983
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 22:45:51,522 ERROR 7983 nodejs.ClusterClientNoResponseError: client no response in 4004047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kunlingwu/MK86/cnode-api/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7983
+hostname: kunlingdeMacBook-Pro.local
+

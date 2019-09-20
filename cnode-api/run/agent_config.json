@@ -126,6 +126,14 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false
+    },
     "env": "local",
     "name": "cnode-api-async",
     "keys": "<String len: 34>",
@@ -141,7 +149,9 @@
       "private": true,
       "dependencies": {
         "egg": "^1.10.1",
-        "egg-validate": "^1.0.0"
+        "egg-mysql": "^3.0.0",
+        "egg-validate": "^1.0.0",
+        "jsonwebtoken": "^8.5.1"
       },
       "devDependencies": {
         "egg-bin": "^4.3.5",
@@ -255,8 +265,12 @@
       "responseTimeout": 60000
     },
     "middleware": [
-      "errorHandler"
+      "errorHandler",
+      "jwt"
     ],
+    "jwt": {
+      "secret": "<String len: 11>"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
@@ -416,6 +430,17 @@
       "from": "/Users/kunlingwu/MK86/cnode-api/config/plugin.js",
       "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-validate",
       "version": "1.1.1"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/kunlingwu/MK86/cnode-api/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-mysql",
+      "version": "3.0.0"
     }
   }
 }

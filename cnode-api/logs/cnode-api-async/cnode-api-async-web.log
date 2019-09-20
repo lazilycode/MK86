@@ -13,3 +13,139 @@
 pid: 4430
 hostname: kunlingdeMacBook-Pro.local
 
+2019-09-16 16:22:07,077 WARN 8177 [-/127.0.0.1/-/5ms POST /user?userName=111&password=2222] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-09-16 16:22:07,084 WARN 8177 [-/127.0.0.1/-/13ms POST /user?userName=111&password=2222] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/kunlingwu/MK86/cnode-api/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/app/extend/context.js:146:19)
+    at Object.csrf (/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/lib/middlewares/csrf.js:33:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/kunlingwu/MK86/cnode-api/node_modules/koa-compose/index.js:28:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:50:10)
+message: "missing csrf token"
+pid: 8177
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 19:00:18,346 WARN 8177 [-/::1/-/2ms OPTIONS /api/login] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/kunlingwu/MK86/cnode-api/node_modules/koa/lib/context.js:89:23)
+    at Object.notAllow (/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/lib/middlewares/methodnoallow.js:18:17)
+    at notAllow.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:69:7)
+message: "Method Not Allowed"
+pid: 8177
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 19:00:18,902 WARN 8177 [-/::1/-/1ms OPTIONS /api/login] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/kunlingwu/MK86/cnode-api/node_modules/koa/lib/context.js:89:23)
+    at Object.notAllow (/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/lib/middlewares/methodnoallow.js:18:17)
+    at notAllow.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:69:7)
+message: "Method Not Allowed"
+pid: 8177
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 19:00:52,083 WARN 8177 [-/::1/-/3ms OPTIONS /api/login] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/kunlingwu/MK86/cnode-api/node_modules/koa/lib/context.js:89:23)
+    at Object.notAllow (/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/lib/middlewares/methodnoallow.js:18:17)
+    at notAllow.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:69:7)
+message: "Method Not Allowed"
+pid: 8177
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 19:00:59,760 WARN 8177 [-/::1/-/0ms OPTIONS /api/login] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/kunlingwu/MK86/cnode-api/node_modules/koa/lib/context.js:89:23)
+    at Object.notAllow (/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/lib/middlewares/methodnoallow.js:18:17)
+    at notAllow.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:69:7)
+message: "Method Not Allowed"
+pid: 8177
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 19:01:00,140 WARN 8177 [-/::1/-/0ms OPTIONS /api/login] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/kunlingwu/MK86/cnode-api/node_modules/koa/lib/context.js:89:23)
+    at Object.notAllow (/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/lib/middlewares/methodnoallow.js:18:17)
+    at notAllow.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:69:7)
+message: "Method Not Allowed"
+pid: 8177
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 19:01:10,582 WARN 8177 [-/::1/-/0ms OPTIONS /api/login] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/kunlingwu/MK86/cnode-api/node_modules/koa/lib/context.js:89:23)
+    at Object.notAllow (/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/lib/middlewares/methodnoallow.js:18:17)
+    at notAllow.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:69:7)
+message: "Method Not Allowed"
+pid: 8177
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 19:01:38,191 WARN 8177 [-/::1/-/0ms OPTIONS /api/login] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/kunlingwu/MK86/cnode-api/node_modules/koa/lib/context.js:89:23)
+    at Object.notAllow (/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/lib/middlewares/methodnoallow.js:18:17)
+    at notAllow.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:69:7)
+message: "Method Not Allowed"
+pid: 8177
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-16 19:03:46,636 WARN 8177 [-/::1/-/0ms OPTIONS /api/login] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/kunlingwu/MK86/cnode-api/node_modules/koa/lib/context.js:89:23)
+    at Object.notAllow (/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/lib/middlewares/methodnoallow.js:18:17)
+    at notAllow.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/co/index.js:69:7)
+message: "Method Not Allowed"
+pid: 8177
+hostname: kunlingdeMacBook-Pro.local
+
