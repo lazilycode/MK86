@@ -1,6 +1,9 @@
 {
   "keys": "/Users/kunlingwu/MK86/cnode-api/config/config.default.js",
   "middleware": "/Users/kunlingwu/MK86/cnode-api/config/config.default.js",
+  "jwt": {
+    "secret": "/Users/kunlingwu/MK86/cnode-api/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-session/config/config.default.js",
     "key": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-session/config/config.default.js",
@@ -124,6 +127,14 @@
     "defaultViewEngine": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-view/config/config.default.js"
   },
+  "mysql": {
+    "default": {
+      "database": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-mysql/config/config.default.js"
+    },
+    "app": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-mysql/config/config.default.js",
+    "agent": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-mysql/config/config.default.js"
+  },
   "env": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
   "name": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
   "proxy": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
@@ -138,7 +149,9 @@
     "private": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
     "dependencies": {
       "egg": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "egg-validate": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+      "egg-mysql": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
+      "jsonwebtoken": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "egg-bin": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
