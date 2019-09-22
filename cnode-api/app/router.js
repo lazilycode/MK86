@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = app => {
-  const { router, controller } = app;
-  router.get('/demo', controller.demo.show);
-  router.get('/user', controller.user.login);
+  app.router.resources('topics', '/api/v2/topics', 'topics');
+  app.get("/login", "login.index");
+  app.get("/", app.jwt, "render.index");
 };

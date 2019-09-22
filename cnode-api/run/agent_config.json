@@ -81,8 +81,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-watcher@2.2.0@egg-watcher/lib/event-sources/default",
+        "development": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-watcher@2.2.0@egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -126,13 +126,9 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
-    "mysql": {
-      "default": {
-        "database": null,
-        "connectionLimit": 5
-      },
-      "app": true,
-      "agent": false
+    "jwt": {
+      "secret": "<String len: 6>",
+      "enable": false
     },
     "env": "local",
     "name": "cnode-api-async",
@@ -149,9 +145,8 @@
       "private": true,
       "dependencies": {
         "egg": "^1.10.1",
-        "egg-mysql": "^3.0.0",
-        "egg-validate": "^1.0.0",
-        "jsonwebtoken": "^8.5.1"
+        "egg-jwt": "^3.1.6",
+        "egg-validate": "^1.0.0"
       },
       "devDependencies": {
         "egg-bin": "^4.3.5",
@@ -265,12 +260,8 @@
       "responseTimeout": 60000
     },
     "middleware": [
-      "errorHandler",
-      "jwt"
+      "errorHandler"
     ],
-    "jwt": {
-      "secret": "<String len: 11>"
-    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
@@ -283,8 +274,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-session",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-session@2.2.0@egg-session",
       "version": "2.2.0"
     },
     "security": {
@@ -296,8 +287,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security",
       "version": "1.14.0"
     },
     "jsonp": {
@@ -309,8 +300,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-jsonp",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-jsonp@1.2.2@egg-jsonp",
       "version": "1.2.2"
     },
     "onerror": {
@@ -322,8 +313,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-onerror",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-onerror@1.6.0@egg-onerror",
       "version": "1.6.0"
     },
     "i18n": {
@@ -333,8 +324,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-i18n",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-i18n@1.2.0@egg-i18n",
       "version": "1.2.0"
     },
     "watcher": {
@@ -344,8 +335,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-watcher",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-watcher@2.2.0@egg-watcher",
       "version": "2.2.0"
     },
     "multipart": {
@@ -355,8 +346,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-multipart",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-multipart@1.5.1@egg-multipart",
       "version": "1.5.1"
     },
     "development": {
@@ -370,8 +361,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-development",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-development@1.4.2@egg-development",
       "version": "1.4.2"
     },
     "schedule": {
@@ -381,8 +372,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-schedule",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-schedule@2.6.0@egg-schedule",
       "version": "2.6.0"
     },
     "logrotator": {
@@ -394,8 +385,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-logrotator",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator",
       "version": "2.3.3"
     },
     "static": {
@@ -405,8 +396,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-static",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-static@1.5.1@egg-static",
       "version": "1.5.1"
     },
     "view": {
@@ -416,8 +407,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-view",
+      "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-view@1.2.0@egg-view",
       "version": "1.2.0"
     },
     "validate": {
@@ -428,19 +419,21 @@
       "optionalDependencies": [],
       "env": [],
       "from": "/Users/kunlingwu/MK86/cnode-api/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-validate",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-validate@1.1.1@egg-validate",
       "version": "1.1.1"
     },
-    "mysql": {
+    "jwt": {
       "enable": true,
-      "package": "egg-mysql",
-      "name": "mysql",
+      "package": "egg-jwt",
+      "name": "jwt",
       "dependencies": [],
-      "optionalDependencies": [],
+      "optionalDependencies": [
+        "onerror"
+      ],
       "env": [],
       "from": "/Users/kunlingwu/MK86/cnode-api/config/plugin.js",
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-mysql",
-      "version": "3.0.0"
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-jwt@3.1.6@egg-jwt",
+      "version": "3.1.6"
     }
   }
 }

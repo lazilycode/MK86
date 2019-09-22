@@ -5,9 +5,8 @@
   "private": true,
   "dependencies": {
     "egg": "^1.10.1",
-    "egg-mysql": "^3.0.0",
-    "egg-validate": "^1.0.0",
-    "jsonwebtoken": "^8.5.1"
+    "egg-jwt": "^3.1.6",
+    "egg-validate": "^1.0.0"
   },
   "devDependencies": {
     "egg-bin": "^4.3.5",

@@ -5,7 +5,8 @@ exports.validate = {
   package: 'egg-validate',
 };
 
-exports.mysql = {
+
+exports.jwt = {
   enable: true,
-  package: 'egg-mysql',
+  package: "egg-jwt"
 };

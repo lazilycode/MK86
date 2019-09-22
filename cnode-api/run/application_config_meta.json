@@ -2,259 +2,251 @@
   "keys": "/Users/kunlingwu/MK86/cnode-api/config/config.default.js",
   "middleware": "/Users/kunlingwu/MK86/cnode-api/config/config.default.js",
   "jwt": {
-    "secret": "/Users/kunlingwu/MK86/cnode-api/config/config.default.js"
+    "secret": "/Users/kunlingwu/MK86/cnode-api/config/config.default.js",
+    "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-jwt@3.1.6@egg-jwt/config/config.default.js"
   },
   "session": {
-    "maxAge": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-session/config/config.default.js"
+    "maxAge": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-session@2.2.0@egg-session/config/config.default.js",
+    "key": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-session@2.2.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-session@2.2.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-session@2.2.0@egg-session/config/config.default.js"
   },
   "security": {
-    "domainWhiteList": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
     "csrf": {
-      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "type": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "refererWhiteList": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "type": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "useSession": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "cookieName": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "sessionName": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "headerName": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "bodyName": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "queryName": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js"
     },
     "xframe": {
-      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "value": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.local.js",
+      "maxAge": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "value": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "policy": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js",
-      "checkAddress": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js"
+      "ipBlackList": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js",
+      "checkAddress": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js"
     }
   },
   "helper": {
-    "shtml": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-security/config/config.default.js"
+    "shtml": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-security@1.14.0@egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-jsonp@1.2.2@egg-jsonp/config/config.default.js",
+    "callback": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-jsonp@1.2.2@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-jsonp@1.2.2@egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-onerror@1.6.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-onerror@1.6.0@egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-i18n@1.2.0@egg-i18n/config/config.default.js",
+    "dirs": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-i18n@1.2.0@egg-i18n/config/config.default.js",
+    "queryField": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-i18n@1.2.0@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-i18n@1.2.0@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-i18n@1.2.0@egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-watcher@2.2.0@egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-watcher/config/config.default.js"
+      "default": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-watcher@2.2.0@egg-watcher/config/config.default.js",
+      "development": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-watcher@2.2.0@egg-watcher/config/config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-multipart/config/config.default.js"
+    "autoFields": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-multipart@1.5.1@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-multipart@1.5.1@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-multipart@1.5.1@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-multipart@1.5.1@egg-multipart/config/config.default.js",
+    "fields": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-multipart@1.5.1@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-multipart@1.5.1@egg-multipart/config/config.default.js",
+    "files": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-multipart@1.5.1@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-multipart@1.5.1@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-multipart@1.5.1@egg-multipart/config/config.default.js"
   },
   "development": {
-    "watchDirs": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-development/config/config.default.js"
+    "watchDirs": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-development@1.4.2@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-development@1.4.2@egg-development/config/config.default.js",
+    "fastReady": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-development@1.4.2@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-development@1.4.2@egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-static/config/config.default.js"
+    "prefix": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-static@1.5.1@egg-static/config/config.default.js",
+    "dir": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-static@1.5.1@egg-static/config/config.default.js",
+    "dynamic": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-static@1.5.1@egg-static/config/config.default.js",
+    "preload": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-static@1.5.1@egg-static/config/config.default.js",
+    "buffer": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-static@1.5.1@egg-static/config/config.default.js",
+    "maxFiles": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-static@1.5.1@egg-static/config/config.default.js"
   },
   "view": {
-    "root": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-view/config/config.default.js"
+    "root": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-view@1.2.0@egg-view/config/config.default.js",
+    "cache": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-view@1.2.0@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-view@1.2.0@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-view@1.2.0@egg-view/config/config.default.js",
+    "mapping": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-view@1.2.0@egg-view/config/config.default.js"
   },
-  "mysql": {
-    "default": {
-      "database": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-mysql/config/config.default.js",
-      "connectionLimit": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-mysql/config/config.default.js"
-    },
-    "app": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-mysql/config/config.default.js",
-    "agent": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg-mysql/config/config.default.js"
-  },
-  "env": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-  "name": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-  "maxProxyCount": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
+  "env": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+  "name": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+  "proxy": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+  "maxProxyCount": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "version": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "description": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "private": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
+    "name": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "version": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "description": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "private": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
     "dependencies": {
-      "egg": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "egg-mysql": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "egg-validate": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "jsonwebtoken": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+      "egg": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "egg-jwt": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "egg-validate": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "egg-mock": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+      "egg-bin": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "egg-mock": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
     },
     "engines": {
-      "node": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+      "node": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
     },
     "scripts": {
-      "start": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "dev": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "test": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "test-local": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "cov": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "lint": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "ci": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "autod": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+      "start": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "dev": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "test": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "test-local": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "cov": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "lint": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "ci": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "autod": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
     },
     "ci": {
-      "version": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+      "version": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
     },
-    "license": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+    "license": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
   },
-  "baseDir": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
+  "baseDir": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+  "HOME": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+  "rundir": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+    "ignore": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+    "bodyparser": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "notFound": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "sitefile": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "middlewares": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "httpClient": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+    "pageUrl": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "strict": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
+    "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "encoding": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "formLimit": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "strict": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "depth": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+      "arrayLimit": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "depth": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
     }
   },
   "logger": {
-    "dir": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "env": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "level": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
+    "dir": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "encoding": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "env": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "level": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "outputJSON": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "buffer": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "appLogName": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "coreLogName": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "agentLogName": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "errorLogName": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.local.js"
+      "consoleLevel": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.local.js"
     },
-    "allowDebugAtProd": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+    "allowDebugAtProd": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxAge": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+      "timeout": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "maxSockets": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "maxSockets": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
     }
   },
-  "coreMiddleware": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "port": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "port": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+      "hostname": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js",
-    "responseTimeout": "/Users/kunlingwu/MK86/cnode-api/node_modules/egg/config/config.default.js"
+    "maxWaitTime": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/config.default.js"
   }
 }
