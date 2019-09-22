@@ -283,3 +283,93 @@
 2019-09-22 21:11:08,555 INFO 1088 [egg:core] dump config after load, 6ms
 2019-09-22 21:11:08,568 INFO 1088 [egg-watcher:app] watcher start success
 2019-09-22 21:11:08,574 INFO 1088 [egg:core] dump config after ready, 4ms
+2019-09-22 21:25:47,210 INFO 1548 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 21:25:47,238 INFO 1548 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 21:25:47,238 INFO 1548 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 21:25:47,281 INFO 1548 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 21:25:47,283 INFO 1548 [egg-security] use csrf middleware
+2019-09-22 21:25:47,283 INFO 1548 [egg-security] use methodnoallow middleware
+2019-09-22 21:25:47,284 INFO 1548 [egg-security] use noopen middleware
+2019-09-22 21:25:47,284 INFO 1548 [egg-security] use nosniff middleware
+2019-09-22 21:25:47,285 INFO 1548 [egg-security] use xssProtection middleware
+2019-09-22 21:25:47,285 INFO 1548 [egg-security] use xframe middleware
+2019-09-22 21:25:47,285 INFO 1548 [egg-security] use dta middleware
+2019-09-22 21:25:47,285 INFO 1548 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 21:25:47,307 INFO 1548 [egg:core] dump config after load, 5ms
+2019-09-22 21:25:47,324 INFO 1548 [egg-watcher:app] watcher start success
+2019-09-22 21:25:47,328 INFO 1548 [egg:core] dump config after ready, 3ms
+2019-09-22 21:25:49,915 INFO 1563 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 21:25:49,944 INFO 1563 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 21:25:49,944 INFO 1563 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 21:25:49,982 INFO 1563 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 21:25:49,984 INFO 1563 [egg-security] use csrf middleware
+2019-09-22 21:25:49,984 INFO 1563 [egg-security] use methodnoallow middleware
+2019-09-22 21:25:49,984 INFO 1563 [egg-security] use noopen middleware
+2019-09-22 21:25:49,985 INFO 1563 [egg-security] use nosniff middleware
+2019-09-22 21:25:49,985 INFO 1563 [egg-security] use xssProtection middleware
+2019-09-22 21:25:49,985 INFO 1563 [egg-security] use xframe middleware
+2019-09-22 21:25:49,986 INFO 1563 [egg-security] use dta middleware
+2019-09-22 21:25:49,986 INFO 1563 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 21:25:49,997 INFO 1563 [egg:core] dump config after load, 4ms
+2019-09-22 21:25:50,012 INFO 1563 [egg-watcher:app] watcher start success
+2019-09-22 21:25:50,016 INFO 1563 [egg:core] dump config after ready, 3ms
+2019-09-22 21:25:51,060 INFO 1567 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 21:25:51,090 INFO 1567 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 21:25:51,090 INFO 1567 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 21:25:51,130 INFO 1567 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 21:25:51,132 INFO 1567 [egg-security] use csrf middleware
+2019-09-22 21:25:51,132 INFO 1567 [egg-security] use methodnoallow middleware
+2019-09-22 21:25:51,133 INFO 1567 [egg-security] use noopen middleware
+2019-09-22 21:25:51,133 INFO 1567 [egg-security] use nosniff middleware
+2019-09-22 21:25:51,134 INFO 1567 [egg-security] use xssProtection middleware
+2019-09-22 21:25:51,135 INFO 1567 [egg-security] use xframe middleware
+2019-09-22 21:25:51,135 INFO 1567 [egg-security] use dta middleware
+2019-09-22 21:25:51,135 INFO 1567 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 21:25:51,149 INFO 1567 [egg:core] dump config after load, 5ms
+2019-09-22 21:25:51,162 INFO 1567 [egg-watcher:app] watcher start success
+2019-09-22 21:25:51,168 INFO 1567 [egg:core] dump config after ready, 4ms
+2019-09-22 21:26:00,099 INFO 1580 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 21:26:00,142 INFO 1580 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 21:26:00,142 INFO 1580 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 21:26:00,203 INFO 1580 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 21:26:00,205 INFO 1580 [egg-security] use csrf middleware
+2019-09-22 21:26:00,206 INFO 1580 [egg-security] use methodnoallow middleware
+2019-09-22 21:26:00,206 INFO 1580 [egg-security] use noopen middleware
+2019-09-22 21:26:00,206 INFO 1580 [egg-security] use nosniff middleware
+2019-09-22 21:26:00,207 INFO 1580 [egg-security] use xssProtection middleware
+2019-09-22 21:26:00,207 INFO 1580 [egg-security] use xframe middleware
+2019-09-22 21:26:00,207 INFO 1580 [egg-security] use dta middleware
+2019-09-22 21:26:00,207 INFO 1580 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 21:26:00,222 INFO 1580 [egg:core] dump config after load, 4ms
+2019-09-22 21:26:00,242 INFO 1580 [egg-watcher:app] watcher start success
+2019-09-22 21:26:00,248 INFO 1580 [egg:core] dump config after ready, 4ms
+2019-09-22 21:26:01,086 INFO 1583 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 21:26:01,144 INFO 1583 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 21:26:01,144 INFO 1583 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 21:26:01,203 INFO 1583 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 21:26:01,207 INFO 1583 [egg-security] use csrf middleware
+2019-09-22 21:26:01,209 INFO 1583 [egg-security] use methodnoallow middleware
+2019-09-22 21:26:01,209 INFO 1583 [egg-security] use noopen middleware
+2019-09-22 21:26:01,210 INFO 1583 [egg-security] use nosniff middleware
+2019-09-22 21:26:01,210 INFO 1583 [egg-security] use xssProtection middleware
+2019-09-22 21:26:01,211 INFO 1583 [egg-security] use xframe middleware
+2019-09-22 21:26:01,211 INFO 1583 [egg-security] use dta middleware
+2019-09-22 21:26:01,211 INFO 1583 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 21:26:01,232 INFO 1583 [egg:core] dump config after load, 8ms
+2019-09-22 21:26:01,247 INFO 1583 [egg-watcher:app] watcher start success
+2019-09-22 21:26:01,253 INFO 1583 [egg:core] dump config after ready, 4ms
+2019-09-22 21:28:09,152 INFO 1622 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 21:28:09,249 INFO 1622 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 21:28:09,249 INFO 1622 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 21:28:09,340 INFO 1622 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 21:28:09,343 INFO 1622 [egg-security] use csrf middleware
+2019-09-22 21:28:09,344 INFO 1622 [egg-security] use methodnoallow middleware
+2019-09-22 21:28:09,345 INFO 1622 [egg-security] use noopen middleware
+2019-09-22 21:28:09,346 INFO 1622 [egg-security] use nosniff middleware
+2019-09-22 21:28:09,346 INFO 1622 [egg-security] use xssProtection middleware
+2019-09-22 21:28:09,347 INFO 1622 [egg-security] use xframe middleware
+2019-09-22 21:28:09,347 INFO 1622 [egg-security] use dta middleware
+2019-09-22 21:28:09,347 INFO 1622 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 21:28:09,364 INFO 1622 [egg:core] dump config after load, 6ms
+2019-09-22 21:28:09,389 INFO 1622 [egg-watcher:app] watcher start success
+2019-09-22 21:28:09,395 INFO 1622 [egg:core] dump config after ready, 4ms
