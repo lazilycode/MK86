@@ -78,10 +78,10 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/login",
-    "regexp": "/^\\/login(?:\\/(?=$))?$/",
+    "path": "/token",
+    "regexp": "/^\\/token(?:\\/(?=$))?$/",
     "stack": [
-      "/Users/kunlingwu/MK86/cnode-api/app/controller/login.js#LoginController.index()"
+      "/Users/kunlingwu/MK86/cnode-api/app/controller/token.js#TokenController.index()"
     ]
   },
   {
