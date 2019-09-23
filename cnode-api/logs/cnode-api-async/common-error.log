@@ -28,3 +28,48 @@ hostname: kunlingdeMacBook-Pro.local
 pid: 8426
 hostname: kunlingdeMacBook-Pro.local
 
+2019-09-22 22:26:09,699 ERROR 2995 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: app is not defined
+    at RenderController.index (/Users/kunlingwu/MK86/cnode-api/app/controller/render.js:12:9)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 2995
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-22 22:26:29,131 ERROR 3051 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: secret is not defined
+    at RenderController.index (/Users/kunlingwu/MK86/cnode-api/app/controller/render.js:12:61)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 3051
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-22 22:26:29,862 ERROR 3051 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: secret is not defined
+    at RenderController.index (/Users/kunlingwu/MK86/cnode-api/app/controller/render.js:12:61)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 3051
+hostname: kunlingdeMacBook-Pro.local
+

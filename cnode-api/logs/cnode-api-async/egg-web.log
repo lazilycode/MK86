@@ -373,3 +373,108 @@
 2019-09-22 21:28:09,364 INFO 1622 [egg:core] dump config after load, 6ms
 2019-09-22 21:28:09,389 INFO 1622 [egg-watcher:app] watcher start success
 2019-09-22 21:28:09,395 INFO 1622 [egg:core] dump config after ready, 4ms
+2019-09-22 22:24:17,837 INFO 2957 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 22:24:17,890 INFO 2957 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 22:24:17,890 INFO 2957 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 22:24:18,010 INFO 2957 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 22:24:18,012 INFO 2957 [egg-security] use csrf middleware
+2019-09-22 22:24:18,013 INFO 2957 [egg-security] use methodnoallow middleware
+2019-09-22 22:24:18,014 INFO 2957 [egg-security] use noopen middleware
+2019-09-22 22:24:18,015 INFO 2957 [egg-security] use nosniff middleware
+2019-09-22 22:24:18,020 INFO 2957 [egg-security] use xssProtection middleware
+2019-09-22 22:24:18,022 INFO 2957 [egg-security] use xframe middleware
+2019-09-22 22:24:18,022 INFO 2957 [egg-security] use dta middleware
+2019-09-22 22:24:18,022 INFO 2957 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 22:24:18,042 INFO 2957 [egg:core] dump config after load, 8ms
+2019-09-22 22:24:18,065 INFO 2957 [egg-watcher:app] watcher start success
+2019-09-22 22:24:18,073 INFO 2957 [egg:core] dump config after ready, 5ms
+2019-09-22 22:24:20,558 INFO 2974 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 22:24:20,596 INFO 2974 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 22:24:20,596 INFO 2974 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 22:24:20,636 INFO 2974 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 22:24:20,639 INFO 2974 [egg-security] use csrf middleware
+2019-09-22 22:24:20,640 INFO 2974 [egg-security] use methodnoallow middleware
+2019-09-22 22:24:20,640 INFO 2974 [egg-security] use noopen middleware
+2019-09-22 22:24:20,641 INFO 2974 [egg-security] use nosniff middleware
+2019-09-22 22:24:20,641 INFO 2974 [egg-security] use xssProtection middleware
+2019-09-22 22:24:20,642 INFO 2974 [egg-security] use xframe middleware
+2019-09-22 22:24:20,643 INFO 2974 [egg-security] use dta middleware
+2019-09-22 22:24:20,643 INFO 2974 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 22:24:20,658 INFO 2974 [egg:core] dump config after load, 4ms
+2019-09-22 22:24:20,670 INFO 2974 [egg-watcher:app] watcher start success
+2019-09-22 22:24:20,675 INFO 2974 [egg:core] dump config after ready, 3ms
+2019-09-22 22:24:21,239 INFO 2978 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 22:24:21,269 INFO 2978 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 22:24:21,269 INFO 2978 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 22:24:21,320 INFO 2978 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 22:24:21,322 INFO 2978 [egg-security] use csrf middleware
+2019-09-22 22:24:21,323 INFO 2978 [egg-security] use methodnoallow middleware
+2019-09-22 22:24:21,324 INFO 2978 [egg-security] use noopen middleware
+2019-09-22 22:24:21,324 INFO 2978 [egg-security] use nosniff middleware
+2019-09-22 22:24:21,325 INFO 2978 [egg-security] use xssProtection middleware
+2019-09-22 22:24:21,325 INFO 2978 [egg-security] use xframe middleware
+2019-09-22 22:24:21,325 INFO 2978 [egg-security] use dta middleware
+2019-09-22 22:24:21,325 INFO 2978 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 22:24:21,339 INFO 2978 [egg:core] dump config after load, 4ms
+2019-09-22 22:24:21,357 INFO 2978 [egg-watcher:app] watcher start success
+2019-09-22 22:24:21,361 INFO 2978 [egg:core] dump config after ready, 3ms
+2019-09-22 22:24:54,566 INFO 2995 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 22:24:54,630 INFO 2995 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 22:24:54,630 INFO 2995 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 22:24:54,672 INFO 2995 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 22:24:54,674 INFO 2995 [egg-security] use csrf middleware
+2019-09-22 22:24:54,675 INFO 2995 [egg-security] use methodnoallow middleware
+2019-09-22 22:24:54,675 INFO 2995 [egg-security] use noopen middleware
+2019-09-22 22:24:54,675 INFO 2995 [egg-security] use nosniff middleware
+2019-09-22 22:24:54,676 INFO 2995 [egg-security] use xssProtection middleware
+2019-09-22 22:24:54,676 INFO 2995 [egg-security] use xframe middleware
+2019-09-22 22:24:54,676 INFO 2995 [egg-security] use dta middleware
+2019-09-22 22:24:54,676 INFO 2995 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 22:24:54,692 INFO 2995 [egg:core] dump config after load, 5ms
+2019-09-22 22:24:54,708 INFO 2995 [egg-watcher:app] watcher start success
+2019-09-22 22:24:54,713 INFO 2995 [egg:core] dump config after ready, 3ms
+2019-09-22 22:26:26,538 INFO 3047 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 22:26:26,606 INFO 3047 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 22:26:26,606 INFO 3047 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 22:26:26,694 INFO 3047 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 22:26:26,707 INFO 3047 [egg-security] use csrf middleware
+2019-09-22 22:26:26,709 INFO 3047 [egg-security] use methodnoallow middleware
+2019-09-22 22:26:26,710 INFO 3047 [egg-security] use noopen middleware
+2019-09-22 22:26:26,711 INFO 3047 [egg-security] use nosniff middleware
+2019-09-22 22:26:26,711 INFO 3047 [egg-security] use xssProtection middleware
+2019-09-22 22:26:26,711 INFO 3047 [egg-security] use xframe middleware
+2019-09-22 22:26:26,711 INFO 3047 [egg-security] use dta middleware
+2019-09-22 22:26:26,711 INFO 3047 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 22:26:26,737 INFO 3047 [egg:core] dump config after load, 7ms
+2019-09-22 22:26:26,762 INFO 3047 [egg-watcher:app] watcher start success
+2019-09-22 22:26:26,770 INFO 3047 [egg:core] dump config after ready, 5ms
+2019-09-22 22:26:27,384 INFO 3051 [egg:logger] init all loggers with options: {"dir":"/Users/kunlingwu/MK86/cnode-api/logs/cnode-api-async","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cnode-api-async-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-22 22:26:27,421 INFO 3051 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/clean_log.js
+2019-09-22 22:26:27,421 INFO 3051 [egg-schedule]: register schedule /Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-22 22:26:27,484 INFO 3051 [egg-static] starting static serve /public/ -> /Users/kunlingwu/MK86/cnode-api/app/public
+2019-09-22 22:26:27,486 INFO 3051 [egg-security] use csrf middleware
+2019-09-22 22:26:27,488 INFO 3051 [egg-security] use methodnoallow middleware
+2019-09-22 22:26:27,488 INFO 3051 [egg-security] use noopen middleware
+2019-09-22 22:26:27,489 INFO 3051 [egg-security] use nosniff middleware
+2019-09-22 22:26:27,489 INFO 3051 [egg-security] use xssProtection middleware
+2019-09-22 22:26:27,490 INFO 3051 [egg-security] use xframe middleware
+2019-09-22 22:26:27,490 INFO 3051 [egg-security] use dta middleware
+2019-09-22 22:26:27,490 INFO 3051 [egg-security] compose 7 middlewares into one security middleware
+2019-09-22 22:26:27,507 INFO 3051 [egg:core] dump config after load, 5ms
+2019-09-22 22:26:27,531 INFO 3051 [egg-watcher:app] watcher start success
+2019-09-22 22:26:27,540 INFO 3051 [egg:core] dump config after ready, 6ms
+2019-09-22 23:18:55,105 WARN 3051 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-23 01:07:07,322 WARN 3051 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-23 01:50:50,814 WARN 3051 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-23 01:50:50,814 WARN 3051 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-23 03:39:03,035 WARN 3051 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-23 05:26:55,257 WARN 3051 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-23 05:57:54,488 WARN 3051 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-23 05:57:54,488 WARN 3051 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-23 06:31:34,699 WARN 3051 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-23 06:31:34,700 WARN 3051 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-23 07:49:18,005 WARN 3051 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-23 07:49:18,005 WARN 3051 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-23 07:58:44,213 WARN 3051 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-23 14:58:07,009 WARN 3051 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-23 14:58:07,019 WARN 3051 [ClusterClient:Watcher] follower closed, and try to init it again
