@@ -12,8 +12,8 @@ class LoginController extends Controller {
   }
 
   async find(e) {
-    const user = await this.app.mysql.get('login', e);
-    return { user };
+    const user = await this.app.mysql.select('login', {where:e});
+    return  user ;
   }
 }
 module.exports =LoginController

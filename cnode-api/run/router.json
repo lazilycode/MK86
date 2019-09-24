@@ -45,6 +45,7 @@
     "path": "/login",
     "regexp": "/^\\/login(?:\\/(?=$))?$/",
     "stack": [
+      "anonymous",
       "/Users/kunlingwu/MK86/cnode-api/app/controller/login.js#LoginController.read()"
     ]
   },

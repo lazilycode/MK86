@@ -1392,3 +1392,54 @@ hostname: kunlingdeMacBook-Pro.local
 pid: 6167
 hostname: kunlingdeMacBook-Pro.local
 
+2019-09-24 09:58:48,092 ERROR 8315 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:19:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 8315
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-24 09:59:11,028 ERROR 8346 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:20:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 8346
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-24 10:29:17,674 ERROR 9973 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'sign' of undefined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:22:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 9973
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-24 10:33:15,166 ERROR 10417 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'token' of undefined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:30:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 10417
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-24 10:33:25,069 ERROR 10417 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'token' of undefined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:30:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 10417
+hostname: kunlingdeMacBook-Pro.local
+

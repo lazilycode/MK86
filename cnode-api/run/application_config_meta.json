@@ -56,7 +56,8 @@
     }
   },
   "jwt": {
-    "secret": "/Users/kunlingwu/MK86/cnode-api/config/config.default.js"
+    "secret": "/Users/kunlingwu/MK86/cnode-api/config/config.default.js",
+    "enable": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-jwt@3.1.6@egg-jwt/config/config.default.js"
   },
   "mysql": {
     "client": {

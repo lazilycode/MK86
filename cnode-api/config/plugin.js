@@ -6,10 +6,10 @@ exports.validate = {
 };
 
 
-// exports.jwt = {
-//   enable: false,
-//   package: "egg-jwt"
-// };
+exports.jwt = {
+  enable: true,
+  package: "egg-jwt"
+};
 
 exports.mysql = {
   enable: true,

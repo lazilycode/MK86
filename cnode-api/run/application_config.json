@@ -101,6 +101,7 @@
         "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-logrotator@2.3.3@egg-logrotator/config/locales",
         "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-static@1.5.1@egg-static/config/locales",
         "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-view@1.2.0@egg-view/config/locales",
+        "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-jwt@3.1.6@egg-jwt/config/locales",
         "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-mysql@3.0.0@egg-mysql/config/locales",
         "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/locales",
         "/Users/kunlingwu/MK86/cnode-api/config/locales"
@@ -158,6 +159,10 @@
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
+    },
+    "jwt": {
+      "secret": "<String len: 6>",
+      "enable": false
     },
     "mysql": {
       "default": {
@@ -310,11 +315,9 @@
       "responseTimeout": 60000
     },
     "middleware": [
+      "jwt",
       "errorHandler"
     ],
-    "jwt": {
-      "secret": "<String len: 6>"
-    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware",
@@ -478,6 +481,19 @@
       "from": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg@1.19.0@egg/config/plugin.js",
       "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-view@1.2.0@egg-view",
       "version": "1.2.0"
+    },
+    "jwt": {
+      "enable": true,
+      "package": "egg-jwt",
+      "name": "jwt",
+      "dependencies": [],
+      "optionalDependencies": [
+        "onerror"
+      ],
+      "env": [],
+      "from": "/Users/kunlingwu/MK86/cnode-api/config/plugin.js",
+      "path": "/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-jwt@3.1.6@egg-jwt",
+      "version": "3.1.6"
     },
     "mysql": {
       "enable": true,

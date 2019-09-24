@@ -7,5 +7,5 @@ module.exports = app => {
   app.post("/roles", "roles.index");
 
   //用户登陆查询
-  app.post("/login", "login.read");
+  app.post("/login", app.jwt, "login.read");
 };
