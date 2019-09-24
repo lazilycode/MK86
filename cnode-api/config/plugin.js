@@ -1,12 +1,23 @@
 'use strict';
 
 exports.validate = {
-  enable: true,
+  enable: false,
   package: 'egg-validate',
 };
 
 
-exports.jwt = {
+// exports.jwt = {
+//   enable: false,
+//   package: "egg-jwt"
+// };
+
+exports.mysql = {
   enable: true,
-  package: "egg-jwt"
+  package: 'egg-mysql',
+};
+
+exports.security = {
+  xframe: {
+    enable: false,
+  },
 };

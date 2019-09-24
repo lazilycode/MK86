@@ -1,81 +1,8 @@
 [
   {
-    "name": "topics",
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/v2/topics",
-    "regexp": "/^\\/api\\/v2\\/topics(?:\\/(?=$))?$/",
-    "stack": [
-      "/Users/kunlingwu/MK86/cnode-api/app/controller/topics.js#TopicsController.index()"
-    ]
-  },
-  {
-    "name": "topics",
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/v2/topics",
-    "regexp": "/^\\/api\\/v2\\/topics(?:\\/(?=$))?$/",
-    "stack": [
-      "/Users/kunlingwu/MK86/cnode-api/app/controller/topics.js#TopicsController.create()"
-    ]
-  },
-  {
-    "name": "topic",
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [
-      {
-        "name": "id",
-        "prefix": "/",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      }
-    ],
-    "path": "/api/v2/topics/:id",
-    "regexp": "/^\\/api\\/v2\\/topics\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
-    "stack": [
-      "/Users/kunlingwu/MK86/cnode-api/app/controller/topics.js#TopicsController.show()"
-    ]
-  },
-  {
-    "name": "topic",
-    "methods": [
-      "PUT"
-    ],
-    "paramNames": [
-      {
-        "name": "id",
-        "prefix": "/",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      }
-    ],
-    "path": "/api/v2/topics/:id",
-    "regexp": "/^\\/api\\/v2\\/topics\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
-    "stack": [
-      "/Users/kunlingwu/MK86/cnode-api/app/controller/topics.js#TopicsController.update()"
-    ]
-  },
-  {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/token",
@@ -94,8 +21,31 @@
     "path": "/",
     "regexp": "/^(?:\\/(?=$))?$/",
     "stack": [
-      "anonymous",
       "/Users/kunlingwu/MK86/cnode-api/app/controller/render.js#RenderController.index()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/roles",
+    "regexp": "/^\\/roles(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/kunlingwu/MK86/cnode-api/app/controller/roles.js#RolesController.index()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/login",
+    "regexp": "/^\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/kunlingwu/MK86/cnode-api/app/controller/login.js#LoginController.read()"
     ]
   },
   {

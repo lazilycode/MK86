@@ -73,3 +73,535 @@ hostname: kunlingdeMacBook-Pro.local
 pid: 3051
 hostname: kunlingdeMacBook-Pro.local
 
+2019-09-23 17:23:42,191 ERROR 4848 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'test_roles'@'58.246.230.92' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Protocol._enqueue (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'test_roles'@'58.246.230.92' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 4848
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 17:24:34,439 ERROR 4875 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'58.246.230.92' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    --------------------
+    at Protocol._enqueue (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'root'@'58.246.230.92' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 4875
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 17:30:27,509 ERROR 4976 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: secret is not defined
+    at RenderController.index (/Users/kunlingwu/MK86/cnode-api/app/controller/render.js:12:61)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 4976
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 17:30:30,435 ERROR 4976 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: ctx.service.roles.save is not a function
+    at RolesController.index (/Users/kunlingwu/MK86/cnode-api/app/controller/roles.js:10:42)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 4976
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 17:37:55,369 ERROR 5183 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: secret is not defined
+    at RenderController.index (/Users/kunlingwu/MK86/cnode-api/app/controller/render.js:12:61)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5183
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:32:34,985 ERROR 5652 [-/127.0.0.1/-/1ms GET /] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:160:17)
+    at Handshake.emit (events.js:182:13)
+    at Handshake._onTimeout (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:124:8)
+    at Timer._onTimeout (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Timer.js:32:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+    --------------------
+    at Protocol._enqueue (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/kunlingwu/MK86/cnode-api/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "PROTOCOL_SEQUENCE_TIMEOUT"
+fatal: true
+timeout: 10000
+name: "PROTOCOL_SEQUENCE_TIMEOUTError"
+pid: 5652
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:41:49,978 ERROR 5849 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: app is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:17:18)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5849
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:42:06,930 ERROR 5869 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'sign' of undefined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:17:26)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5869
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:42:26,884 ERROR 5884 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5884
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:42:53,212 ERROR 5888 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5888
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:43:33,778 ERROR 5896 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5896
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:44:06,939 ERROR 5896 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5896
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:44:15,187 ERROR 5896 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5896
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:44:15,471 ERROR 5896 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5896
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:44:29,559 ERROR 5903 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5903
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:44:54,634 ERROR 5903 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5903
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:46:50,505 ERROR 5903 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5903
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:47:34,240 ERROR 5903 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5903
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:47:42,730 ERROR 5903 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5903
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:48:43,704 ERROR 5903 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5903
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:49:08,459 ERROR 5903 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 5903
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:54:21,219 ERROR 6125 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 6125
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:54:44,465 ERROR 6125 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 6125
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:54:59,397 ERROR 6136 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 6136
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:56:12,674 ERROR 6142 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 6142
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:57:16,170 ERROR 6151 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 6151
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:57:37,809 ERROR 6151 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 6151
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:57:49,432 ERROR 6151 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 6151
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 18:59:22,908 ERROR 6159 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 6159
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 19:00:31,380 ERROR 6167 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 6167
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-23 19:01:24,745 ERROR 6167 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: name is not defined
+    at LoginController.read (/Users/kunlingwu/MK86/cnode-api/app/controller/login.js:18:58)
+    at callController (/Users/kunlingwu/MK86/cnode-api/node_modules/_egg-core@3.21.4@egg-core/lib/loader/mixin/controller.js:128:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:50:10)
+    at toPromise (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:118:63)
+    at next (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/kunlingwu/MK86/cnode-api/node_modules/_co@4.6.0@co/index.js:69:7)
+
+pid: 6167
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-24 07:03:25,666 ERROR 6131 nodejs.ClusterClientNoResponseError: client no response in 32457477ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kunlingwu/MK86/cnode-api/node_modules/_cluster-client@1.7.5@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 6131
+hostname: kunlingdeMacBook-Pro.local
+
+2019-09-24 09:18:34,879 ERROR 6131 nodejs.ClusterClientNoResponseError: client no response in 8109062ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kunlingwu/MK86/cnode-api/node_modules/_cluster-client@1.7.5@cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 6131
+hostname: kunlingdeMacBook-Pro.local
+
